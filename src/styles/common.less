@@ -1,0 +1,75 @@
+@common: #00acf9;
+  
+.van-tabs__line {
+  background-color: @common;
+}
+.van-tab--active {
+  color: @common;
+}
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    font-family: inherit;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
+}
+
+.cleartop:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    zoom: 1;
+}
+
+.ellipsis-more {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.ellipsis-more-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.iconfont {
+    font-family: 'iconfont';
+    font-size: 14px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}

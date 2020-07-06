@@ -1,0 +1,69 @@
+@top: #63cbf7;
+@bottom: #00aef4;
+.user-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: -webkit-linear-gradient(@top, @bottom); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(@top, @bottom); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(@top, @bottom); /* Firefox 3.6 - 15 */
+  background: linear-gradient(@top, @bottom); /* 标准的语法 */
+  z-index: 999;
+  .user-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+}
+.from {
+  width: 100%;
+  margin: 50px 0 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+  .from-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.1);
+    .iconfont {
+      font-size: 16px;
+      margin-right: 10px;
+      color: #ffffff;
+    }
+    input {
+      width: 100%;
+      height: 24px;
+      line-height: 24px;
+      background-color: rgba(0, 0, 0, 0);
+      outline: none;
+      border: 0;
+    }
+  }
+}
+.submit-btn {
+  width: 300px;
+  margin: auto;
+  height: 44px;
+      border-radius: 20px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
